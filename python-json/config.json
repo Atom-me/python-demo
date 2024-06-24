@@ -1,0 +1,105 @@
+{
+  "crypter": "c4XUSX0JnLXGwbdZy6ZHOd",
+  "nonce": "QeMgiJZulBWVyKU1",
+  "authEncrypt": "false",
+  "language": "en",
+  "offline": "false",
+  "agreePrivacy": "true",
+  "warning": "true",
+  "current": "sso",
+  "profiles": [
+    {
+      "name": "devops",
+      "mode": "AKSK",
+      "accessKeyId": "NWVVFEHB",
+      "secretAccessKey": "zVixZ",
+      "securityToken": "",
+      "region": "ap-southeast-3",
+      "projectId": "",
+      "domainId": "",
+      "skipSecureVerify": "false",
+      "readTimeout": 10,
+      "connectTimeout": 5,
+      "retryCount": 0
+    },
+    {
+      "name": "nonprod",
+      "mode": "AKSK",
+      "accessKeyId": "Z7PQWS",
+      "secretAccessKey": "fR5mcwBoP",
+      "securityToken": "",
+      "region": "ap-southeast-3",
+      "projectId": "",
+      "domainId": "",
+      "skipSecureVerify": "false",
+      "readTimeout": 10,
+      "connectTimeout": 5,
+      "retryCount": 0
+    },
+    {
+      "name": "network",
+      "mode": "AKSK",
+      "accessKeyId": "VYJA1A5FU",
+      "secretAccessKey": "RiMWXQOegtP",
+      "securityToken": "",
+      "region": "ap-southeast-3",
+      "projectId": "",
+      "domainId": "",
+      "skipSecureVerify": "false",
+      "readTimeout": 10,
+      "connectTimeout": 5,
+      "retryCount": 0
+    },
+    {
+      "name": "default",
+      "mode": "AKSK",
+      "accessKeyId": "NWVVFW4HB",
+      "secretAccessKey": "zVThYOjAeBwixZ",
+      "securityToken": "",
+      "region": "ap-southeast-3",
+      "projectId": "",
+      "domainId": "",
+      "skipSecureVerify": "false",
+      "readTimeout": 10,
+      "connectTimeout": 5,
+      "retryCount": 0
+    },
+    {
+      "name": "sso",
+      "mode": "SSO",
+      "accessKeyId": "",
+      "secretAccessKey": "",
+      "securityToken": "",
+      "region": "ap-southeast-3",
+      "projectId": "",
+      "domainId": "",
+      "skipSecureVerify": "true",
+      "readTimeout": 10,
+      "connectTimeout": 5,
+      "retryCount": 0,
+      "ssoParam": {
+        "startUrl": "https://idcenter.huaweicloud.com/d-6ba5d/portal",
+        "ssoRegion": "ap-southeast-3"
+      },
+      "ssoAuth": {
+        "clientIdAndSecret": {
+          "clientId": "eyJraWQi",
+          "clientSecret": "eyJraWQiOiJlZy",
+          "expiresAt": "1725503998"
+        },
+        "accessTokenResult": {
+          "accessToken": "eyJraWQiOiJmkNWZjMDEy",
+          "expiresAt": "1719072961"
+        },
+        "accountId": "a4c7ffd498a04c1c95bbb544",
+        "agencyUrn": "iam::a4c7ffd498abbb544:agency:SysReservedV3_cloud_admin_perset_5e41df9",
+        "stsToken": {
+          "accessKeyId": "HSTAXC5CJTZ",
+          "secretAccessKey": "9a4VmmFXUEN244rrrNrwkYHJALn",
+          "securityToken": "hQpjbi1ukRjSzLeWm",
+          "expiresAt": "1719058575"
+        }
+      }
+    }
+  ]
+}
